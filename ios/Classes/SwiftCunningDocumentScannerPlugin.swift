@@ -3,7 +3,7 @@ import UIKit
 import Vision
 import VisionKit
 
-@available(iOS 13.0, *)
+@available(iOS 11.0, *)
 public class SwiftCunningDocumentScannerPlugin: NSObject, FlutterPlugin, VNDocumentCameraViewControllerDelegate {
    var resultChannel :FlutterResult?
    var presentingController: VNDocumentCameraViewController?
